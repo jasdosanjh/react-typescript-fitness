@@ -19,23 +19,15 @@ export const navigationPages = [
   { name: "Contact Us" },
 ];
 
-// export interface ClassType {
-//   name: string;
-//   description?: string;
-//   image: string;
-// }
-
 /**
- * Classes array used within the Classes component.
- *
- * @interface ClassType
+ * @typedef {Object} ClassType
  * @property {string} name - The name of the class.
- * @property {string | undefined} description - The description of the class (optional).
+ * @property {string | undefined} [description] - The description of the class (optional).
  * @property {string} image - The image associated with the class.
  */
 
 /**
- * Array of class types.
+ * Classes array used within the Classes component.
  *
  * @type {Array<ClassType>}
  */
