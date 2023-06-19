@@ -29,3 +29,17 @@ export interface BenefitType {
   title: string;
   description: string;
 }
+
+/**
+ * Enum representing the class type.
+ *
+ * @interface ClassType
+ * @property {string} name - The name of the class.
+ * @property {string | undefined} description - The description of the class (optional).
+ * @property {string} image - The image associated with the class.
+ */
+export interface ClassType {
+  name: string;
+  description?: string;
+  image: string;
+}
