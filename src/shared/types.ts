@@ -6,14 +6,14 @@
  * @property {string} Home - The home page.
  * @property {string} Benefits - The benefits page.
  * @property {string} Classes - The classes page.
- * @property {string} ContactUs - The contact us page.
+ * @property {string} Contact - The contact us page.
  */
 
 export enum SelectedPage {
   Home = "home",
   Benefits = "benefits",
   Classes = "classes",
-  ContactUs = "contactus",
+  Contact = "contact",
 }
 
 /**

@@ -16,7 +16,7 @@ export const navigationPages = [
   { name: "Home" },
   { name: "Benefits" },
   { name: "Classes" },
-  { name: "Contact Us" },
+  { name: "Contact" },
 ];
 
 /**
